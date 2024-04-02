@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Felipe Pomper Alves - Sobre Mim</title>
+    <!-- Importando o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Sobre Mim</h1>
+        <!-- Navegação -->
+        <nav>
+            <ul>
+                <!-- Links para diferentes seções da página -->
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#formacao">Formação/Educação</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Seção "Sobre Mim" -->
+    <section id="sobre">
+        <div class="container" style="text-align: center;">
+            <h2>Sobre Mim</h2>
+            <!-- Imagem -->
+            <img src="image.png" alt="Matheus Felipe Pomper Alves" style="width: 200px; height: 200px;">
+            <!-- Informações pessoais -->
+            <p>Nome: Matheus Felipe Pomper Alves</p>
+            <p>Hobbies: Assistir animes, jogar video games, ler livros</p>
+            <p>Bebida preferida: Café</p>
+            <p>Gosto de lugares mais calmos sem tumultos, adoro estudar e aprender coisas novas.</p>
+            <p>Casado há 3 anos, 24 anos.</p>
+        </div>
+    </section>
+
+    <!-- Seção "Formação/Educação" -->
+    <section id="formacao">
+        <div class="container" style="text-align: center;">
+            <h2>Formação/Educação</h2>
+            <!-- Informações sobre a formação/educação -->
+            <p>Bacharelado em Farmácia pela Faculdade UNIFAMA</p>
+            <p>Ensino médio completo</p>
+            <p>Cursando atualmente Análise e Desenvolvimento de Sistemas</p>
+        </div>
+    </section>
+
+    <!-- Seção "Contato" -->
+    <section id="contato">
+        <div class="container">
+            <h2 style="text-align: center;">Contato</h2>
+            <!-- Formulário de contato -->
+            <form action="#" method="post" style="max-width: 400px; margin: 0 auto;">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" style="width: 100%;" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" style="width: 100%;" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" style="width: 100%;" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" style="width: 100%;" required></textarea>
+                <button type="submit" style="width: 100%;">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Seção "Portfolio" -->
+    <section id="portfolio">
+        <div class="container" style="text-align: center;">
+            <h2>Portfolio</h2>
+            <!-- Descrição do portfólio -->
+            <p>Meu primeiro trabalho, para saber mais, <a href="#" target="_blank">Clique aqui</a>.</p>
+            <p style="font-size: 16px;">Um projeto simples para Desenvolvimento das minhas habilidades em programação web, 
+                é meu primeiro contato com essas ferramentas como o VSCODE.</p>
+        </div>
+    </section>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Matheus Felipe Pomper Alves</p>
+    </footer>
+
+    <!-- Script para abrir a página na seção "Sobre" por padrão -->
+    <script>
+        window.onload = function() {
+            window.location.href = "#sobre";
+        };
+    </script>
+</body>
+</html>
