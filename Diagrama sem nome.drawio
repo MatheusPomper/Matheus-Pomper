@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-07T22:04:37.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="tVHeaSQRsyunwG-ds1cN" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-07T22:17:00.511Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="8W2BgZY1DuygkNKTcNDE" version="24.2.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1756" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -210,12 +210,12 @@
         </mxCell>
         <mxCell id="XMl1va9vYv1i2SkBQdN0-53" value="" style="endArrow=none;html=1;rounded=0;startArrow=oval;startFill=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-295" y="139.5" as="sourcePoint" />
-            <mxPoint x="-340" y="139.5" as="targetPoint" />
+            <mxPoint x="-295" y="119.5" as="sourcePoint" />
+            <mxPoint x="-340" y="119.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XMl1va9vYv1i2SkBQdN0-54" value="Data e horário" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="130" width="70" height="20" as="geometry" />
+          <mxGeometry x="-300" y="110" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="w4AAAETD3FH_SRSaghTv-1" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XMl1va9vYv1i2SkBQdN0-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -276,7 +276,7 @@
         </mxCell>
         <mxCell id="w4AAAETD3FH_SRSaghTv-31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-280" y="730" as="sourcePoint" />
+            <mxPoint x="-280" y="750" as="sourcePoint" />
             <mxPoint x="-280" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -436,17 +436,35 @@
         <mxCell id="w4AAAETD3FH_SRSaghTv-59" value="(1:1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-400" y="250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4AAAETD3FH_SRSaghTv-60" value="CRM(FK)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="160" width="70" height="20" as="geometry" />
+        <mxCell id="w4AAAETD3FH_SRSaghTv-60" value="medico_CRM(FK)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="140" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="w4AAAETD3FH_SRSaghTv-61" value="" style="endArrow=none;html=1;rounded=0;startArrow=oval;startFill=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-295" y="170" as="sourcePoint" />
-            <mxPoint x="-340" y="170" as="targetPoint" />
+            <mxPoint x="-295" y="150" as="sourcePoint" />
+            <mxPoint x="-340" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w4AAAETD3FH_SRSaghTv-62" value="(0:n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-700" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4AAAETD3FH_SRSaghTv-63" value="" style="endArrow=none;html=1;rounded=0;startArrow=oval;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-295" y="180" as="sourcePoint" />
+            <mxPoint x="-340" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w4AAAETD3FH_SRSaghTv-64" value="paciente_CPF(FK)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="170" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w4AAAETD3FH_SRSaghTv-65" value="" style="endArrow=none;html=1;rounded=0;startArrow=oval;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-235" y="750" as="sourcePoint" />
+            <mxPoint x="-280" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w4AAAETD3FH_SRSaghTv-66" value="ID Convenio" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="740" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
