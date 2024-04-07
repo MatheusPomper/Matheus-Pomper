@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-07T21:13:08.634Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="jktx85fz0SaXD2UTEWWN" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-07T22:02:28.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="6ECIB0XcobYsiDpmJpsF" version="24.2.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1575" dy="1563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1756" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -400,7 +400,7 @@
             <mxPoint x="-759.02" y="594.98" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w4AAAETD3FH_SRSaghTv-45" value="(n,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="w4AAAETD3FH_SRSaghTv-45" value="(0:n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-700" y="220" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w4AAAETD3FH_SRSaghTv-47" value="atende" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -418,22 +418,22 @@
             <mxPoint x="-760" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w4AAAETD3FH_SRSaghTv-50" value="(n,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="w4AAAETD3FH_SRSaghTv-50" value="(0:n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-820" y="270" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4AAAETD3FH_SRSaghTv-51" value="(n,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="w4AAAETD3FH_SRSaghTv-51" value="(0:n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-400" y="560" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4AAAETD3FH_SRSaghTv-56" value="(n,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="w4AAAETD3FH_SRSaghTv-56" value="(0:n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-340" y="500" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4AAAETD3FH_SRSaghTv-57" value="(n,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="w4AAAETD3FH_SRSaghTv-57" value="(0:n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-760" y="500" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4AAAETD3FH_SRSaghTv-58" value="(n,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="w4AAAETD3FH_SRSaghTv-58" value="(1:1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-280" y="280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4AAAETD3FH_SRSaghTv-59" value="(n,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="w4AAAETD3FH_SRSaghTv-59" value="(1:1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-400" y="250" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w4AAAETD3FH_SRSaghTv-60" value="CRM(FK)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -444,6 +444,9 @@
             <mxPoint x="-295" y="170" as="sourcePoint" />
             <mxPoint x="-340" y="170" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="w4AAAETD3FH_SRSaghTv-62" value="(0:n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="530" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
